@@ -1,0 +1,119 @@
+# depslib dependency file v1.0
+1670120326 source:c:\users\jhennerson\documents\github\top-secret\estruturadedados\estruturadedados_2\projetofinal\projetofinaldesempenhoarvores\arquivo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pessoa.h"
+	"arvoreAVL.h"
+	"arvoreRubroNegra.h"
+
+1670094164 c:\users\jhennerson\documents\github\top-secret\estruturadedados\estruturadedados_2\projetofinal\projetofinaldesempenhoarvores\pessoa.h
+
+1670115925 c:\users\jhennerson\documents\github\top-secret\estruturadedados\estruturadedados_2\projetofinal\projetofinaldesempenhoarvores\arvoreavl.h
+
+1670093617 c:\users\jhennerson\documents\github\top-secret\estruturadedados\estruturadedados_2\projetofinal\projetofinaldesempenhoarvores\arvorerubronegra.h
+
+1670120326 c:\users\jhennerson\documents\github\top-secret\estruturadedados\estruturadedados_2\projetofinal\projetofinaldesempenhoarvores\arquivo.h
+	"arvoreAVL.h"
+	"arvoreRubroNegra.h"
+
+1670121085 source:c:\users\jhennerson\documents\github\top-secret\estruturadedados\estruturadedados_2\projetofinal\projetofinaldesempenhoarvores\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<sys/time.h>
+	"pessoa.h"
+	"arvoreAVL.h"
+	"arvoreRubroNegra.h"
+	"arquivo.h"
+	"calculaMedia.h"
+	"printFuctions.h"
+
+1670094164 source:c:\users\jhennerson\documents\github\top-secret\estruturadedados\estruturadedados_2\projetofinal\projetofinaldesempenhoarvores\pessoa.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pessoa.h"
+
+1670115913 source:c:\users\jhennerson\documents\github\top-secret\estruturadedados\estruturadedados_2\projetofinal\projetofinaldesempenhoarvores\arvoreavl.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pessoa.h"
+	"arquivo.h"
+
+1670093872 source:c:\users\jhennerson\documents\github\top-secret\estruturadedados\estruturadedados_2\projetofinal\projetofinaldesempenhoarvores\arvorerubronegra.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pessoa.h"
+	"arquivo.h"
+
+1665344877 source:c:\users\jhennerson\documents\github\top-secret\estruturadedados\estruturadedados_2\projetofinal\projetofinaldesempenhoarvores\calculamedia.c
+
+1670121644 source:c:\users\jhennerson\documents\github\top-secret\estruturadedados\estruturadedados_2\projetofinal\projetofinaldesempenhoarvores\printfuctions.c
+
+1665335439 c:\users\jhennerson\documents\github\top-secret\estruturadedados\estruturadedados_2\projetofinal\projetofinaldesempenhoarvores\calculamedia.h
+
+1670097229 c:\users\jhennerson\documents\github\top-secret\estruturadedados\estruturadedados_2\projetofinal\projetofinaldesempenhoarvores\printfuctions.h
+
+1670120326 source:c:\users\jhennerson\documents\github\atividade2-ed2\arquivo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pessoa.h"
+	"arvoreAVL.h"
+	"arvoreRubroNegra.h"
+
+1670094164 c:\users\jhennerson\documents\github\atividade2-ed2\pessoa.h
+
+1670115925 c:\users\jhennerson\documents\github\atividade2-ed2\arvoreavl.h
+
+1670093617 c:\users\jhennerson\documents\github\atividade2-ed2\arvorerubronegra.h
+
+1670115913 source:c:\users\jhennerson\documents\github\atividade2-ed2\arvoreavl.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pessoa.h"
+	"arquivo.h"
+
+1670120326 c:\users\jhennerson\documents\github\atividade2-ed2\arquivo.h
+	"arvoreAVL.h"
+	"arvoreRubroNegra.h"
+
+1670093872 source:c:\users\jhennerson\documents\github\atividade2-ed2\arvorerubronegra.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pessoa.h"
+	"arquivo.h"
+
+1665344877 source:c:\users\jhennerson\documents\github\atividade2-ed2\calculamedia.c
+
+1670121794 source:c:\users\jhennerson\documents\github\atividade2-ed2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<sys/time.h>
+	"pessoa.h"
+	"arvoreAVL.h"
+	"arvoreRubroNegra.h"
+	"arquivo.h"
+	"calculaMedia.h"
+	"printFuctions.h"
+
+1665335439 c:\users\jhennerson\documents\github\atividade2-ed2\calculamedia.h
+
+1670097229 c:\users\jhennerson\documents\github\atividade2-ed2\printfuctions.h
+
+1670094164 source:c:\users\jhennerson\documents\github\atividade2-ed2\pessoa.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pessoa.h"
+
+1670121644 source:c:\users\jhennerson\documents\github\atividade2-ed2\printfuctions.c
+
