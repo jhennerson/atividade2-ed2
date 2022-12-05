@@ -16,11 +16,11 @@ double countInsercao_AVL(char arq[]);
 double countInsercao_LLRB(char arq[]);
 
 int main() {
-    char arqO[] = "massaDados.csv";
-    char arqD[] = "dadosOrdenados.csv";
+    char arqD[] = "massaDados.csv";
+    char arqO[] = "dadosOrdenados.csv";
 
     printf("Carregando dados..");
-    criaArquivoOrdenado(arqD, arqO);
+    criaArquivoOrdenado(arqO, arqD);
 
     double tempo = 0;
     int opcao;
@@ -39,7 +39,7 @@ int main() {
                 case 1:
                     system("cls");
                     printf("Insercao na Arvore AVL com dados desordenados:\n");
-                    tempo = countInsercao_AVL(arqO);
+                    tempo = countInsercao_AVL(arqD);
                     printf("\nTempo de operacao: %lf segundos\n\n", tempo);
                     system("pause");
                     fflush(stdin);
@@ -47,7 +47,7 @@ int main() {
                 case 2:
                     system("cls");
                     printf("Insercao na Arvore AVL com dados ordenados:\n");
-                    tempo = countInsercao_AVL(arqD);
+                    tempo = countInsercao_AVL(arqO);
                     printf("\nTempo de operacao: %lf segundos\n\n", tempo);
                     system("pause");
                     fflush(stdin);
@@ -73,7 +73,7 @@ int main() {
                 case 1:
                     system("cls");
                     printf("Insercao na Arvore Rubro Negra com dados desordenados:\n");
-                    tempo = countInsercao_LLRB(arqO);
+                    tempo = countInsercao_LLRB(arqD);
                     printf("\nTempo de operacao: %lf segundos\n\n", tempo);
                     system("pause");
                     fflush(stdin);
@@ -81,7 +81,7 @@ int main() {
                 case 2:
                     system("cls");
                     printf("Insercao na Arvore Rubro Negra com dados ordenados:\n");
-                    tempo = countInsercao_LLRB(arqD);
+                    tempo = countInsercao_LLRB(arqO);
                     printf("\nTempo de operacao: %lf segundos\n\n", tempo);
                     system("pause");
                     fflush(stdin);
